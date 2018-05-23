@@ -81,7 +81,19 @@
         <p class="lead">
         Data Source: LANDSET, 0.2% Inundation in 2030, Ground Elevation
         </p>
-        <!-- </div> -->
+        <p class="lead">
+       Data processing for Interactive Parts:
+       1. Draw routes from Google Map and export to .KML
+       2.	use R to scrape coordinates into csv
+       3. use R to calculate distance between coordinates (shortest path)
+      4.	QGIS: coordinates on layer
+      5.	Save raster files to appropriate projection (WS84)
+      6.	QGIS Sample from points: Extract value from raster file for points
+      7.	Repeat step 6 to get ground elevation, heat and storm water depth for points
+      8.  Format and copy the data to json
+
+        </p>
+
       </div>
     </div>
 </article>
